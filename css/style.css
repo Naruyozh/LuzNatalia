@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f7;
+  text-align: center;
+  /* The Masonry Brick */
+  /* Masonry on large screens */
+  /* Masonry on medium-sized screens */
+  /* Masonry on small screens */
+}
+body .wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+body h1 {
+  font-family: "Great Vibes", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 160px;
+  color: #7a705d;
+  margin-bottom: 0;
+}
+body h2 {
+  font-family: "Great Vibes", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: #7a705d;
+  margin-bottom: 60px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+body h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  margin: 30px;
+}
+body h4 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #7a705d;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+body h5 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 0;
+  color: #7a705d;
+}
+body .madrina {
+  width: 200px;
+}
+body .color-box {
+  width: 360px;
+  background-color: #ec5979;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+body .section-1 {
+  min-height: 80vh;
+  background-image: url("../img/cerezos.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+body .section-1 .info-init {
+  margin-top: 200px;
+}
+body .section-image {
+  margin-top: 200px;
+}
+body .section-2 {
+  padding: 300px 0;
+  background-image: url("../img/fondo-cerezo.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center center;
+}
+body .background-pink {
+  background-color: #ffdfe0;
+  padding: 160px 0 130px 0;
+}
+body .background-white {
+  background-color: #ffd1d4;
+  padding: 200px 0 200px 0;
+}
+body .section-3 {
+  margin: 300px 0;
+}
+body .strong {
+  font-weight: 600;
+  font-size: 32px;
+}
+body .float-music {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background-color: #7a705d;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .float-music img {
+  width: 20px;
+}
+body .link-ubication {
+  font-size: 20px;
+  color: #ec5979;
+  font-weight: 600;
+}
+body .maps {
+  margin-top: 20px;
+  width: 90px;
+}
+body .img-fluid {
+  width: 100%;
+}
+body .flores {
+  position: fixed;
+}
+body .flores .flower-1 {
+  width: 100px;
+  -webkit-animation: flowers-1 20s linear infinite;
+          animation: flowers-1 20s linear infinite;
+}
+body .flores .flower-2 {
+  width: 80px;
+  -webkit-animation: flowers-2 20s linear infinite;
+          animation: flowers-2 20s linear infinite;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+  -webkit-transform: translate(0vw, -15vh);
+          transform: translate(0vw, -15vh);
+}
+body .flores .flower-3 {
+  width: 80px;
+  -webkit-animation: flowers-3 20s linear infinite;
+          animation: flowers-3 20s linear infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-transform: translate(80vw, -15vh);
+          transform: translate(80vw, -15vh);
+}
+body .flores .flower-4 {
+  width: 80px;
+  -webkit-animation: flowers-4 20s linear infinite;
+          animation: flowers-4 20s linear infinite;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+  -webkit-transform: translate(85vw, -15vh);
+          transform: translate(85vw, -15vh);
+}
+@-webkit-keyframes flowers-2 {
+  0% {
+    -webkit-transform: translate(10vw, -15vh) rotate(0deg);
+            transform: translate(10vw, -15vh) rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translate(8vw, 30vh) rotate(30deg);
+            transform: translate(8vw, 30vh) rotate(30deg);
+  }
+  50% {
+    -webkit-transform: translate(12vw, 60vh) rotate(50deg);
+            transform: translate(12vw, 60vh) rotate(50deg);
+  }
+  75% {
+    -webkit-transform: translate(16vw, 80vh) rotate(30deg);
+            transform: translate(16vw, 80vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(15vw, 100vh) rotate(20deg);
+            transform: translate(15vw, 100vh) rotate(20deg);
+  }
+}
+@keyframes flowers-2 {
+  0% {
+    -webkit-transform: translate(10vw, -15vh) rotate(0deg);
+            transform: translate(10vw, -15vh) rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translate(8vw, 30vh) rotate(30deg);
+            transform: translate(8vw, 30vh) rotate(30deg);
+  }
+  50% {
+    -webkit-transform: translate(12vw, 60vh) rotate(50deg);
+            transform: translate(12vw, 60vh) rotate(50deg);
+  }
+  75% {
+    -webkit-transform: translate(16vw, 80vh) rotate(30deg);
+            transform: translate(16vw, 80vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(15vw, 100vh) rotate(20deg);
+            transform: translate(15vw, 100vh) rotate(20deg);
+  }
+}
+@-webkit-keyframes flowers-1 {
+  0% {
+    -webkit-transform: translate(0vw, -15vh) rotate(20deg);
+            transform: translate(0vw, -15vh) rotate(20deg);
+  }
+  25% {
+    -webkit-transform: translate(2vw, 20vh) rotate(10deg);
+            transform: translate(2vw, 20vh) rotate(10deg);
+  }
+  50% {
+    -webkit-transform: translate(5vw, 50vh) rotate(20deg);
+            transform: translate(5vw, 50vh) rotate(20deg);
+  }
+  75% {
+    -webkit-transform: translate(7vw, 70vh) rotate(30deg);
+            transform: translate(7vw, 70vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(1vw, 100vh) rotate(20deg);
+            transform: translate(1vw, 100vh) rotate(20deg);
+  }
+}
+@keyframes flowers-1 {
+  0% {
+    -webkit-transform: translate(0vw, -15vh) rotate(20deg);
+            transform: translate(0vw, -15vh) rotate(20deg);
+  }
+  25% {
+    -webkit-transform: translate(2vw, 20vh) rotate(10deg);
+            transform: translate(2vw, 20vh) rotate(10deg);
+  }
+  50% {
+    -webkit-transform: translate(5vw, 50vh) rotate(20deg);
+            transform: translate(5vw, 50vh) rotate(20deg);
+  }
+  75% {
+    -webkit-transform: translate(7vw, 70vh) rotate(30deg);
+            transform: translate(7vw, 70vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(1vw, 100vh) rotate(20deg);
+            transform: translate(1vw, 100vh) rotate(20deg);
+  }
+}
+@-webkit-keyframes flowers-3 {
+  0% {
+    -webkit-transform: translate(80vw, -15vh) rotate(0deg);
+            transform: translate(80vw, -15vh) rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translate(76vw, 30vh) rotate(30deg);
+            transform: translate(76vw, 30vh) rotate(30deg);
+  }
+  50% {
+    -webkit-transform: translate(74vw, 60vh) rotate(50deg);
+            transform: translate(74vw, 60vh) rotate(50deg);
+  }
+  75% {
+    -webkit-transform: translate(70vw, 80vh) rotate(30deg);
+            transform: translate(70vw, 80vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(80vw, 100vh) rotate(20deg);
+            transform: translate(80vw, 100vh) rotate(20deg);
+  }
+}
+@keyframes flowers-3 {
+  0% {
+    -webkit-transform: translate(80vw, -15vh) rotate(0deg);
+            transform: translate(80vw, -15vh) rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translate(76vw, 30vh) rotate(30deg);
+            transform: translate(76vw, 30vh) rotate(30deg);
+  }
+  50% {
+    -webkit-transform: translate(74vw, 60vh) rotate(50deg);
+            transform: translate(74vw, 60vh) rotate(50deg);
+  }
+  75% {
+    -webkit-transform: translate(70vw, 80vh) rotate(30deg);
+            transform: translate(70vw, 80vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(80vw, 100vh) rotate(20deg);
+            transform: translate(80vw, 100vh) rotate(20deg);
+  }
+}
+@-webkit-keyframes flowers-4 {
+  0% {
+    -webkit-transform: translate(85vw, -15vh) rotate(0deg);
+            transform: translate(85vw, -15vh) rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translate(81vw, 30vh) rotate(30deg);
+            transform: translate(81vw, 30vh) rotate(30deg);
+  }
+  50% {
+    -webkit-transform: translate(76vw, 60vh) rotate(50deg);
+            transform: translate(76vw, 60vh) rotate(50deg);
+  }
+  75% {
+    -webkit-transform: translate(81vw, 80vh) rotate(30deg);
+            transform: translate(81vw, 80vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(90vw, 100vh) rotate(20deg);
+            transform: translate(90vw, 100vh) rotate(20deg);
+  }
+}
+@keyframes flowers-4 {
+  0% {
+    -webkit-transform: translate(85vw, -15vh) rotate(0deg);
+            transform: translate(85vw, -15vh) rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translate(81vw, 30vh) rotate(30deg);
+            transform: translate(81vw, 30vh) rotate(30deg);
+  }
+  50% {
+    -webkit-transform: translate(76vw, 60vh) rotate(50deg);
+            transform: translate(76vw, 60vh) rotate(50deg);
+  }
+  75% {
+    -webkit-transform: translate(81vw, 80vh) rotate(30deg);
+            transform: translate(81vw, 80vh) rotate(30deg);
+  }
+  100% {
+    -webkit-transform: translate(90vw, 100vh) rotate(20deg);
+            transform: translate(90vw, 100vh) rotate(20deg);
+  }
+}
+body .masonry {
+  margin: 1.5em auto;
+  -webkit-column-gap: 1.5em;
+     -moz-column-gap: 1.5em;
+          column-gap: 1.5em;
+}
+body .item {
+  margin: 0 0 1.5em;
+}
+body .item img {
+  border-radius: 10px;
+}
+@media only screen and (min-width: 1024px) {
+  body .masonry {
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  body .masonry {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .masonry {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+  }
+  body h1 {
+    font-size: 70px;
+  }
+  body h2 {
+    font-size: 40px;
+  }
+  body h3 {
+    font-size: 30px;
+    margin: 30px;
+  }
+  body h4 {
+    font-size: 24px;
+  }
+  body .strong {
+    font-size: 28px;
+  }
+}
